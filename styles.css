@@ -1,16 +1,29 @@
+/* 共通 */
+
 body {
     font-family: Arial, sans-serif;
 }
 #container {
-    width: 500px;
+    width: 600px;
     margin: 15px auto;
 }
-h1 {
+a {
+    text-decoration: none;
+}
+
+/* Todo管理 */
+
+.todo-wrapper {
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.todo-wrapper h1 {
     font-size: 18px;
     text-align: center;
     margin-bottom: 10px;
 }
-ul {
+.todo-wrapper ul {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -37,4 +50,36 @@ ul > li {
 }
 #todo_template {
     display: none;
+}
+
+/* calender */
+
+.calender-wrapper {
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+table {
+    margin: 15px auto;
+    border: 1px solid#ddd;
+    border-collapse: collapse;
+}
+th {
+    background: #eee;
+}
+th, td {
+    padding: 7px;
+    text-align: center;
+}
+.youbi_0 {
+    color: red;
+}
+.youbi_6 {
+    color: blue;
+}
+.today {
+    font-weight: bold;
+}
+.gray {
+    color: #dedede;
 }

@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+div{
+    margin: lem;
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+    margin-bottom: lem;
+}
+
+a{
+    color:rgb(135, 175, 235);
+    text-decoration: none;
+}
+a:hover{
+    color: #b04188;
+    text-decoration: underline;
+}
+
+li.error{
+    color: red;
+}

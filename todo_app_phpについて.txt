@@ -1,0 +1,19 @@
+todo_app_php
+
+※Vagrant仮想環境(CentOS)で作成
+
+TODO管理アプリの作成
+
+- MySQLとの連携(insert,delete,update,select)
+- PDO
+- 例外処理
+- クラス分け
+- JQuery
+- Ajax処理
+- ループ処理
+- セッション
+- トランザクション
+- ChromeでのJavaScript検証
+- CSRF対策（トークンチェック）
+- JSアラート
+- JS focus() 
